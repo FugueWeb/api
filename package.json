@@ -21,7 +21,9 @@
   "dependencies": {
     "@chainlink/external-adapter": "^0.2.3",
     "express": "^4.17.1",
-    "mongoose": "^5.12.13"
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
   },
   "devDependencies": {
     "morgan": "^1.10.0",

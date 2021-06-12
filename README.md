@@ -25,10 +25,13 @@ Interact and integrate with:
     - Connect with native drivers (Node), copy MONGODB_URI env variable to `nodemon.json` 
 
 ## Heroku
-TODO
 
-- GitHub repo connects and syncs with Heroku
-- Deploy latest commits to update
+- Signup for free account
+- Create new app
+- Under `Deploy` tab, GitHub repo connects and syncs with Heroku
+    - `Deploy Branch` to update to latest commits
+- Under `Settings` add the value for your `MONGODB_URI` environment variable
+
 
 ## Docs
 TODO
