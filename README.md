@@ -2,12 +2,11 @@
 
 ## About
 
-Curated collection of visual and musical artistic creations.
+This API aims to support a variety of artistic and charitable goals to include:
 
-Interact and integrate with:
-
-* NFTs and Open Sea
-* Chainlink External Adapter
+* Curated collection of visual and musical artistic creations integrated with Open Sea for the auction of NFTs
+* Chainlink External Adapter to pull off-chain data into smart contracts/`web3`
+* Promote effective altruism and charitable organizations working in this space
 
 ## Quick Start
 
