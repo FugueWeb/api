@@ -42,11 +42,15 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-package-lock.json
-nodemon.json
-notes.md
-api/models/data.json
+
 
 # System Files
 .DS_Store
 Thumbs.db
+
+# Other
+package-lock.json
+nodemon.json
+notes.md
+/api/models/data.json
+/api/models/sample-data.json

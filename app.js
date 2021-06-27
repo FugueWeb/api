@@ -4,6 +4,10 @@ const morgan = require('morgan'); // Middleware for logging
 const mongoose = require('mongoose');
 
 const nftRoutes = require('./api/routes/nft');
+const artistRoutes = require('./api/routes/artists');
+const evaluatorRoutes = require('./api/routes/evaluators');
+const nonprofitRoutes = require('./api/routes/nonprofits');
+const tlycsRoutes = require('./api/routes/tlycs-route');
 const adapterRoutes = require('./api/routes/adapters').router;
 
 const options = {
@@ -46,6 +50,10 @@ app.use((req, res, next) => {
 //Routes that handle requests
 app.use('/api/v0/nft', nftRoutes);
 app.use('/api/v0/adapters', adapterRoutes);
+app.use('/api/v0/artists', artistRoutes);
+app.use('/api/v0/evaluators', evaluatorRoutes);
+app.use('/api/v0/nonprofits', nonprofitRoutes);
+app.use('/api/v0/tlycs', tlycsRoutes);
 
 app.use((req, res, next) => {
 	const error = new Error('Not found');

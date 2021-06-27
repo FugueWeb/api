@@ -2,12 +2,12 @@
   "name": "fugueweb-api",
   "author": "Fugue Web",
   "version": "1.6.2021",
-  "description": "API to interact and integrate with NFTs on Open Sea and Chainlink External Adapters",
+  "description": "API to interact and integrate with artistic creations, NFTs, Chainlink External Adapters, and effective altruism charities",
   "license": "MIT",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url" : "https://github.com/fugueweb/api"
+    "url": "https://github.com/fugueweb/api"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,15 +19,15 @@
     "restful"
   ],
   "dependencies": {
-    "@chainlink/external-adapter": "^0.2.3",
+    "@chainlink/external-adapter": "^0.2.6",
     "express": "^4.17.1",
-    "mongoose": "^5.12.13",
+    "mongoose": "^5.12.15",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
-    "chai": "^4.2.0"
+    "chai": "^4.3.4"
   }
 }

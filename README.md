@@ -1,6 +1,8 @@
-# API
+# FugueWeb API
 
 ## About
+
+Curated collection of visual and musical artistic creations.
 
 Interact and integrate with:
 
@@ -31,7 +33,7 @@ Interact and integrate with:
 - Under `Deploy` tab, GitHub repo connects and syncs with Heroku
     - `Deploy Branch` to update to latest commits
 - Under `Settings` add the value for your `MONGODB_URI` environment variable
-
+- Note about `package.json`, `morgan` and `nodemon` are included in both dependencies and devDependcies so the app builds in Heroku (otherwise app would error out)
 
 ## Docs
 TODO
